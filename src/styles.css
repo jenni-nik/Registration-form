@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .neon-focus:focus {
+    outline: none;
+    box-shadow: 0 0 8px 2px rgba(255, 255, 0, 0.8);
+  }
+}
